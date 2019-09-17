@@ -8,15 +8,15 @@ do
    d=`date -Iseconds`
    D=`date '+%b %d,%Y'`
    case "$I" in
-      "1") echo "$D OPTION1 ERROR An error is usually an exception that has been caught and not handled. \n
+      "1") echo "{$D OPTION1 ERROR An error is usually an exception that has been caught and not handled. \n
        line2 test \n
        line3 test  \n
-       line4 test"
+       line4 test}"
       ;;
-      "2") echo "$d OPTION2 ERROR An error is usually an exception that has been caught and not handled.
+      "2") echo "{$d OPTION2 ERROR An error is usually an exception that has been caught and not handled.
        line2 test 
        line3 test 
-       line4 test"
+       line4 test}"
       ;;
       "3") echo "$D OPTION3 ERROR An error is usually an exception that has been caught and not handled."
       ;;
