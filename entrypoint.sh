@@ -8,7 +8,31 @@ do
    case "$I" in
       "1") echo "$D ERROR An error is usually an exception that has been caught and not handled."
       ;;
-      "2") echo "$D INFO This is less important than debug log and is often used to provide context in the current task."
+      "2") echo "{
+  "glossary": {
+    "title": "example glossary",
+    "GlossDiv": {
+      "title": "S",
+      "GlossList": {
+        "GlossEntry": {
+          "ID": "SGML",
+          "SortAs": "SGML",
+          "GlossTerm": "Standard Generalized Markup Language",
+          "Acronym": "SGML",
+          "Abbrev": "ISO 8879:1986",
+          "GlossDef": {
+            "para": "A meta-markup language, used to create markup languages such as DocBook.",
+            "GlossSeeAlso": [
+              "GML",
+              "XML"
+            ]
+          },
+          "GlossSee": "markup"
+        }
+      }
+    }
+  }
+}"
       ;;
       "3") echo "$D WARN A warning that should be ignored is usually at this level and should be actionable."
       ;;
