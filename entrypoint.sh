@@ -9,7 +9,7 @@ do
    case "$I" in
       "1") echo "$D ERROR An error is usually an exception that has been caught and not handled."
       ;;
-      "2") echo "$D {
+      "2") echo ""$D {
   "glossary": {
     "title": "example glossary",
     "GlossDiv": {
@@ -33,7 +33,7 @@ do
       }
     }
   }
-}"
+}""
       ;;
       "3") echo "$D WARN A warning that should be ignored is usually at this level and should be actionable."
       ;;
