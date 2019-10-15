@@ -3,7 +3,7 @@ while [ 1 ]
 do
    #WAIT=$(shuf -i $1-$2 -n 1)
    #sleep $(echo "scale=4; $WAIT/1000" | bc)
-   sleep 6
+   sleep 1
    I=$(shuf -i 1-3 -n 1)
    d=`date -Iseconds`
    D=`date '+%b %d,%Y'`
